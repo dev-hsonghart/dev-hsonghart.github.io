@@ -47,4 +47,4 @@ defaults:
     values:
       permalink: /:basename:output_ext
       
-      
+theme: jekyll-theme-cayman
