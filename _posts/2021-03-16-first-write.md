@@ -3,7 +3,7 @@
 layout: post
 title: 이것이 타이틀!
 tags: [javascript, frontend, blog]
-image: ''
+image: 
 
 ---
 
