@@ -1,8 +1,8 @@
 ---
 
 layout: post
-title: Access main program. Access main security. Access main program grid
-tags: [frontpage, jekyll, blog]
+title: 이것이 타이틀!
+tags: [javascript, frontend, blog]
 image: '/images/posts/1.jpg'
 
 ---
