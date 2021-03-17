@@ -8,7 +8,7 @@ tags: [javascript, frontend, blog]
 image:
 ---
 
-![스크린샷 2021-03-10 오후 4.56.43](/Users/heosonghui/Desktop/스크린샷 2021-03-10 오후 4.56.43.png)
+![자바스크립트-day3-upload.png)
 
 챌린지 일지. Day3. 2021 03 10
 

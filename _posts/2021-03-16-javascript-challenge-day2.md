@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: Access main program. Access main security. Access main program grid
+title: 자바스크립트 입문 시작!
 
-tags: [자바스크립트, 챌린지]
+tags: [javascript, frontend, blog]
 
-image: "/images/posts/1.jpg"
+image:
 ---
 
 챌린지 일지. Day2. 2021.03.09
