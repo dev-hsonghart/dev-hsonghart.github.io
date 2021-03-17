@@ -8,7 +8,7 @@ tags: [javascript, frontend, blog]
 image:
 ---
 
-![자바스크립트-day3-upload.png)
+<img src="/images/posts/자바스크립트-day3-upload.png">
 
 챌린지 일지. Day3. 2021 03 10
 
