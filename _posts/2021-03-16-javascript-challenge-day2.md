@@ -1,16 +1,12 @@
-\---
-
+---
 layout: post
 
 title: Access main program. Access main security. Access main program grid
 
 tags: [자바스크립트, 챌린지]
 
-image: '/images/posts/1.jpg'
-
-\---
-
-
+image: "/images/posts/1.jpg"
+---
 
 챌린지 일지. Day2. 2021.03.09
 
@@ -26,26 +22,24 @@ repl.it에서 실습
 2. Initialize (초기화)
 3. Use (사용)
 
-예시. 
+예시.
 
 ```javascript
 let a = 111;
 let b = a - 10;
 a = 4;
-console. log(b , a);
+console.log(b, a);
 ```
 
 - let으로 a 를 생성
 - a = 111 -> 초기화
 - a - 10 -> 사용
 
-변수 앞에는 let으로 시작하여 선언을 한다. 
+변수 앞에는 let으로 시작하여 선언을 한다.
 
 let은 생성하거나 초기화할 때 사용하고 변수 업데이트 시 사용하지 않는다.
 
 let은 변경이 가능한 변수.
-
-
 
 ---
 
@@ -59,7 +53,7 @@ let은 변경이 가능한 변수.
 const a = 111;
 let b = a - 10;
 a = 4; //error
-console.log(b , a);
+console.log(b, a);
 ```
 
 **콤마(,)로 구분하여 let과 const 하나에 여러 개의 변수를 선언할 수 있다.**
@@ -68,8 +62,6 @@ console.log(b , a);
 
 ---
 
-
-
 ### 데이터 타입
 
 1. string = text / "" 따옴표 , ' ' 안에 들어가는 데이터이고 문자를 표현
@@ -77,15 +69,11 @@ console.log(b , a);
 3. number / 숫자
 4. float / 소숫점 숫자
 
-
-
 ---
 
 ### 데이터 정렬
 
 > 상수, 변수, 데이터 타입 모두 사용 가능.
-
-
 
 1. Array = [ ]
 
@@ -99,11 +87,7 @@ console.log(b , a);
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", 111, true, a];
 ```
 
-
-
-> 문법 규칙 Camel case : 소문자로 시작하여 스페이스 대신 대문자로 입력. *협업을 위한 약속
-
-
+> 문법 규칙 Camel case : 소문자로 시작하여 스페이스 대신 대문자로 입력. \*협업을 위한 약속
 
 2. Object = { }
 
@@ -114,11 +98,11 @@ const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", 111, true, a];
 
 ```javascript
 const whoAmI = {
-  name : "HSH",
-  age : 33,
+  name: "HSH",
+  age: 33,
   gender: "Female",
-  favMovies : ["MARS", "Avengers", "Kingdom"]
-}
+  favMovies: ["MARS", "Avengers", "Kingdom"],
+};
 
 console.log(whoAmI);
 
@@ -127,21 +111,12 @@ whoAmI.name = "HSH0404";
 console.log(whoAmI.name);
 ```
 
-
-
 > object 안의 값은 변경할 수 있다.
 
 ---
-
-
 
 ### 항상 신경써야 할 점
 
 - 오타
 - close를 제대로 하였는가?
 - 콤마 (,)를 찍었는가?
-
-
-
-
-
