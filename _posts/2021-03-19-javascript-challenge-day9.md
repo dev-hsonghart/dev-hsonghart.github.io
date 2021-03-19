@@ -191,4 +191,4 @@ if (
 ... 😱
 이렇게 자바스크립트로 만든 첫 계산기가 나왔다.
 
-https://dev-hsonghart.github.io/first_calcurator/
+[계산기 링크](https://dev-hsonghart.github.io/first_calcurator/)
