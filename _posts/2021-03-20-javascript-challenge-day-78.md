@@ -155,7 +155,7 @@ finishData.push({
 saveData();
 ```
 
-![about](/images/posts/moveitem.png)
+<img src="/images/posts/moveitem.png">
 
 ## 6. 로컬스토리지에 저장된 값을 새로고침 시 불러오기
 

@@ -94,4 +94,4 @@ function xmasDDay() {
 }
 ```
 
-> 크리스마스 이브 카운트 다운 만들기 결과물 : https://4r6g0.csb.app/
+> [크리스마스 이브 카운트 다운 만들기 결과물](https://4r6g0.csb.app/)

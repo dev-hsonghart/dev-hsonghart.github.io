@@ -14,7 +14,7 @@ image:
 
 ### openweathermap API
 
-- openweathermap : https://openweathermap.org/api
+- [openweathermap](https://openweathermap.org/api)
 
 - 해당 사이트에 가입을 하면 API-key를 발급받을 수 있다.
 

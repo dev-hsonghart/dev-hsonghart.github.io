@@ -5,7 +5,7 @@ title: if/else
 
 tags: [javascript, frontend, blog]
 
-image: [/images/posts/ifelse.png]
+image: "/images/posts/ifelse.png"
 ---
 
 ## if/else

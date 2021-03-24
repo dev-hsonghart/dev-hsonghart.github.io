@@ -19,7 +19,7 @@ image: "/images/post/range.png"
    range의 value는 리로드 시 셋팅되는 초기값이기 때문에 항상 고정이다.
 
 2. range의 oninput을 사용했다.
-   > https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput
+   > [https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput)
 
 - oninput은 range에 사용자의 입력을 얻을 때 실행된다.
 - 이벤트 리스너와 비슷한 개념인 것 같다.
