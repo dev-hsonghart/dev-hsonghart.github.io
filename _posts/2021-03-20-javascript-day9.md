@@ -5,7 +5,7 @@ title: range값 실시간으로 표시
 
 tags: [javascript, frontend, blog]
 
-image: "/images/post/range.png"
+image: "/images/posts/range.png"
 ---
 
 자바스크립트 챌린지 day9.
