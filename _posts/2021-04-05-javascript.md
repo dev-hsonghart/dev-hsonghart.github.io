@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 같은 디자인 버튼에 이벤트 리스너 달기 "#2"
+title: 같은 디자인 버튼에 이벤트 리스너 달기 "리팩토링"
 
 tags: [javascript, frontend, blog, 반응형]
 
