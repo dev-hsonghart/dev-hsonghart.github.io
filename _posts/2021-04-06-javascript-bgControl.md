@@ -20,8 +20,8 @@ image:
 
 1. RGB값은 3개의 값을 가지고 있다.
 2. 3개의 값 중 0을 반드시 한 개 갖고 있어야 한다.
-3. 나머지 2개의 값은 139 ~ 255 사이의 값이어야 한다.
-   3.1 왜 139 ~ 255 사이여야 하는가? <br> 아래 스크린샷을 참고하자.
+3. 나머지 2개의 값은 139 ~ 255 사이의 값이어야 한다.<br>
+   왜 139 ~ 255 사이여야 하는가? <br> 아래 스크린샷을 참고하자.
 
 <img src="/images/posts/color_2.png">
 <br>
@@ -35,19 +35,17 @@ image:
 
 - 위에 정의한 필수 조건을 만들 수 있는 기능을 정해보자.
 
-1. RGB는 3개의 숫자를 가진 ARRAY이다.
-
 ```javascript
 let rgb = [];
 ```
 
-2. RGB는 0을 반드시 갖고 있어야한다.
+1. RGB는 3개의 숫자를 가진 ARRAY이다.
 
 ```javascript
 let rgb = [0, 0, 0];
 ```
 
-3. 3개 중 2개만 139 ~ 255 사이의 값이 랜덤으로 들어가야 한다. <br>랜덤함수와 반복문이 필요하다.
+2. RGB는 0을 반드시 갖고 있어야한다.
 
 ```javascript
 function randomRGB(array) {
@@ -62,7 +60,7 @@ function getRandomNum() {
 }
 ```
 
-4. 다양한 색상을 표현하기 위해 랜덤값을 받은 ARRAY의 배열을 섞어주어야 한다.
+3. 3개 중 2개만 139 ~ 255 사이의 값이 랜덤으로 들어가야 한다. <br>랜덤함수와 반복문이 필요하다.
 
 ```javascript
 function shuffleArray(array) {
@@ -73,6 +71,8 @@ function shuffleArray(array) {
   return array;
 }
 ```
+
+4. 다양한 색상을 표현하기 위해 랜덤값을 받은 ARRAY의 배열을 섞어주어야 한다.
 
 ---
 
@@ -194,3 +194,5 @@ function init() {
 
 init();
 ```
+
+[적용 화면 보러 가기](https://dev-hsonghart.github.io/js-challenge-output/)
