@@ -24,7 +24,7 @@ image:
 
 ### border-box 와 padding-box를 이용해 border에 gradient가 된 것처럼 보이게끔!
 
-1. border-radius와 border를 설정하자. 왜냐하면 border-box 속성도 사용해야 하기 때문이다.
+1.border-radius와 border를 설정하자. 왜냐하면 border-box 속성도 사용해야 하기 때문이다.
 
 ```css
 .circle {
@@ -33,7 +33,7 @@ image:
 }
 ```
 
-2. 이제 background에 컬러를 채우면 된다. border-box에 원하는 그라디언트 색상을 채우자.
+2.이제 background에 컬러를 채우면 된다. border-box에 원하는 그라디언트 색상을 채우자.
 
 ```css
 .circle {
@@ -45,7 +45,7 @@ image:
 
 <img src="/images/posts/border-gradient-01.png">
 
-3. 그라디언트 컬러 뒤에 clip 속성을 넣게 되면 clip 설정에 맞게 채워지게 된다. 이제 border를 제외한 영역(padding-box)에 배경색을 설정하게 되면.
+3.그라디언트 컬러 뒤에 clip 속성을 넣게 되면 clip 설정에 맞게 채워지게 된다. 이제 border를 제외한 영역(padding-box)에 배경색을 설정하게 되면.
 
 ```css
 .circle {
@@ -61,7 +61,7 @@ image:
 
 <img src="/images/posts/border-gradient-02.png">
 
-4. border 라인에 그라디언트가 적용된 것처럼 보인다.
+4.border 라인에 그라디언트가 적용된 것처럼 보인다.
 
 ---
 
