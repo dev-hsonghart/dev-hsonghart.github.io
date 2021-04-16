@@ -8,6 +8,7 @@ tags: [css]
 image:
 ---
 
+<br>
 ### border radius 와 border gradient는 같이 사용될 수 없다!
 
 - 다양한 loader를 만들던 중, 원형 border에 gradient가 적용되지 않았다.
