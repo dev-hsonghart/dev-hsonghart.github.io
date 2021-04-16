@@ -36,6 +36,8 @@ image:
 
 2.이제 background에 컬러를 채우면 된다. border-box에 원하는 그라디언트 색상을 채우자.
 
+<img src="/images/posts/border-gradient-01.png">
+
 ```css
 .circle {
   border-radius: 50%;
@@ -44,9 +46,8 @@ image:
 }
 ```
 
-<img src="/images/posts/border-gradient-01.png">
-
 3.그라디언트 컬러 뒤에 clip 속성을 넣게 되면 clip 설정에 맞게 채워지게 된다. 이제 border를 제외한 영역(padding-box)에 배경색을 설정하게 되면.
+<img src="/images/posts/border-gradient-02.png">
 
 ```css
 .circle {
@@ -59,8 +60,6 @@ image:
       ) border-box;
 }
 ```
-
-<img src="/images/posts/border-gradient-02.png">
 
 4.border 라인에 그라디언트가 적용된 것처럼 보인다.
 
