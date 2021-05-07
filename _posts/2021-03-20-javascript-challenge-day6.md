@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 로컬 스토리지에 데이터 저장하기
+title: js-로컬 스토리지에 데이터 저장하기
 
 tags: [javascript, frontend, blog]
 

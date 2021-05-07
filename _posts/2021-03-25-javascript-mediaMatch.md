@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: matchMedia
+title: js-matchMedia
 
 tags: [javascript, frontend, blog, 반응형]
 

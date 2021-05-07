@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 투두리스트 만들기
+title: js-투두리스트 만들기
 
 tags: [javascript, frontend, blog]
 

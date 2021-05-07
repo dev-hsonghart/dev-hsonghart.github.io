@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Dom
+title: js-Dom
 
 tags: [javascript, frontend, blog]
 

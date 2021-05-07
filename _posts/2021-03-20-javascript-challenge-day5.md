@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 시계 만들기
+title: js-시계 만들기
 
 tags: [javascript, frontend, blog]
 

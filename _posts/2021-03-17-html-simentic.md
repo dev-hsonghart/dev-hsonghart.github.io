@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: section과 article의 차이
+title: html-section과 article의 차이
 
 tags: [html]
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: object를 활용하여 산수 함수 만들기
+title: js-object를 활용하여 산수 함수 만들기
 
 tags: [javascript, frontend, blog]
 

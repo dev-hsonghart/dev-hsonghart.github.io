@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 이벤트와 이벤트 리스너
+title: js-이벤트와 이벤트 리스너
 
 tags: [javascript, frontend, blog]
 

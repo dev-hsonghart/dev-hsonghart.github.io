@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: function 익히기
+title: js-function 익히기
 
 tags: [javascript, frontend, blog]
 

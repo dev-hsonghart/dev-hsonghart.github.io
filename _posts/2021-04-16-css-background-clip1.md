@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: background clip을 이용해서 border에 gradient 효과 주기
+title: css-background clip을 이용해서 border에 gradient 효과 주기
 
 tags: [css]
 

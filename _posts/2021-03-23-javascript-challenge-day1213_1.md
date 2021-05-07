@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 시간대별로 인사말을 랜덤하게 출력하기
+title: js-시간대별로 인사말을 랜덤하게 출력하기
 
 tags: [javascript, frontend, blog, 모멘텀]
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: range값 실시간으로 표시
+title: js-range값 실시간으로 표시
 
 tags: [javascript, frontend, blog]
 

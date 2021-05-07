@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 자바스크립트 계산기 만들며 익힌 함수
+title: js-계산기 만들며 익힌 함수
 
 tags: [javascript, frontend, blog, 계산기]
 

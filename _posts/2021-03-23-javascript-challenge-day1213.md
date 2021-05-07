@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: filter 함수
+title: js-filter 함수
 
 tags: [javascript, frontend, blog, 모멘텀]
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: if/else
+title: js-if/else
 
 tags: [javascript, frontend, blog]
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 자바스크립트 입문 시작!
+title: js-자바스크립트 입문 시작!
 
 tags: [javascript, frontend, blog]
 

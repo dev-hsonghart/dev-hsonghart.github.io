@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 배경 색상을 특정 값으로만 지정하기
+title: js-배경 색상을 특정 값으로만 지정하기
 
 tags: [javascript, frontend, blog, 반응형]
 

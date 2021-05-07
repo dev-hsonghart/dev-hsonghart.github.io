@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: api로 날씨 정보 불러오기 - 02
+title: js-api로 날씨 정보 불러오기 - 02
 
 tags: [javascript, frontend, blog, api, 날씨 정보]
 

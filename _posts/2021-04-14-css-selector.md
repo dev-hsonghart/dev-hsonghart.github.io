@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 가상 선택자(::after, ::before)를 이용한 애니메이션 시 유의사항
+title: css-가상 선택자(::after, ::before)를 이용한 애니메이션 시 유의사항
 
 tags: [css]
 
