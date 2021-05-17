@@ -28,7 +28,6 @@ const helloMorning = [
 ### 올림, 내림, 버림
 
 - 배열의 인덱스는 정수이다. 그러므로 소수점을 없애는 함수가 필요하다.
-
 - Math.ceil() -> 올림
 - Math.floor() -> 내림
 - Math.round() -> 반올림
@@ -44,7 +43,8 @@ function randomHello(a) {
 - 이제 시간대를 설정해보자
 
 ```javascript
-(currentTime = new date()), (hour = currentTime.getHours());
+const currentTime = new date(),
+  hour = currentTime.getHours();
 ```
 
 - currentTime 에 현재 시간을 저장한다.
@@ -83,7 +83,8 @@ const helloMorning = [
 const displayHello = document.querySelector(".print-hello");
 
 function printHello() {
-  (currentTime = new Date()), (hour = currentTime.getHours());
+  const currentTime = new date(),
+    hour = currentTime.getHours();
 
   function randomHello(a) {
     // 배열안에서 랜덤 뽑기

@@ -31,6 +31,7 @@ get_html = BeautifulSoup(get_url.text, "html.parser")
 print(get_html) # 웹 문서 전체가 console 창에 출력됩니다.
 ```
 
+<br/>
 ### 가져오고 싶은 데이터를 긁어 오자.
 
 - 만약 웹 페이지 내 모든 링크를 가져오고 싶다면?
@@ -49,6 +50,8 @@ print(get_html) # 웹 문서 전체가 console 창에 출력됩니다.
 all_link = get_html.find_all("a")
 print(all_link)
 ```
+
+<br/>
 
 ### 갖고 온 요소는 어떻게 활용할까?
 
@@ -70,6 +73,8 @@ for item in all_link:
   item = item.get_text()
   print(item)
 ```
+
+<br/>
 
 ### .get_text() 와 .string의 차이는?
 

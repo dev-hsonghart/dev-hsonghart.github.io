@@ -71,4 +71,6 @@ for i in range(len(x_list)):
 print(x_list)
 ```
 
+<br/>
+
 > 주의사항: list의 요소가 int의 속성인 즉, 숫자일 경우 이 요소는 index값을 갖지 않아서 for i in range(len(list)) 에서 i로 호출이 되지 않아서 오류가 뜬다.

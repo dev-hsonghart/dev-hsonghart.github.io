@@ -17,6 +17,8 @@ import requests
 from urllib.request import urlopen
 ```
 
+<br/>
+
 ### 입력한 url이 형식에 맞는지 부터 체크해야 한다.
 
 - 사용자가 url에 맞는 형식을 입력하지 않을 경우가 있다. 이유는.. 사용자 맘이다.
@@ -41,6 +43,8 @@ def url_check():
 url_check()
 
 ```
+
+<br/>
 
 ### 입력을 제대로 안했다면 다시 입력 기회를 주고 싶다.
 
@@ -90,10 +94,13 @@ def url_check():
 
 ```
 
-- 시도한 순간 콘솔창에는 뻘건 에러 메시지가 뜰것이다.
-  <img src="/images/posts/python_http_error.png">
+<br/>
 
-- 아 너무 무섭다..
+- 시도한 순간 콘솔창에는 뻘건 에러 메시지가 뜰것이다.
+  <br/>
+  <img src="/images/posts/python_http_error.png">
+  아 너무 무섭다..
+
 - 우리는 에러를 읽을 때 마지막 줄 부터 거꾸로 타고 올라가는 버릇을 들여야한다! (에러가 나는 주 원인은 마지막 줄이다!)
 
 ```python
@@ -103,7 +110,7 @@ ValueError: unknown url type: 'www.naver.com'
 - 에러의 의미는 입력한 url이 알수 없다는 것이다.
 - 분명 .com도 있고 www도 있는데, 무엇이 빠진걸까?
 - urlopen은 "http" url과 관련되어 있다고 써있다.
-- 일반적인 사용자들은 www부터 쓰기 마련이다. 그러면 우리는 https:// 가 없을 경우엔 이 string을 넣어 url에 담아 리소스를 요청해야한다는 것이다.
+- 많은 사용자들은 www부터 쓰는 것이 보편적이다. 그러면 우리는 https:// 가 없을 경우엔 이 string을 넣어 url에 담아 리소스를 요청해야한다는 것이다.
 
 ```python
 # import requests

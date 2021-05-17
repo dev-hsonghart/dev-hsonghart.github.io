@@ -15,7 +15,6 @@ image:
 ### openweathermap API
 
 - [openweathermap](https://openweathermap.org/api)
-
 - 해당 사이트에 가입을 하면 API-key를 발급받을 수 있다.
 
 ### fecth()
@@ -31,6 +30,8 @@ function getWeather(lat, log) {
 }
 ```
 
+<br/>
+
 ### then
 
 - 이전 자바스크립트 코드가 완전히 실행돼서 데이터가 넘어왔을 때만 실행되게 하는 함수이다.
@@ -43,6 +44,8 @@ fetch(
 });
 ```
 
+<br/>
+
 ### 도시이름, 날씨, 온도의 상수를 설정하자.
 
 - reponse된 JSON 객체를 console.dir해보자. 객체 정보를 읽어볼 수 있다.
@@ -53,6 +56,8 @@ const currentCity = json.name,
   currentTemp = Math.floor(json.main.temp),
   currentWeather = json.weather[0].main;
 ```
+
+<br/>
 
 - innerText 를 이용하여 html에 JSON 데이터를 출력하자.
 
