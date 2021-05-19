@@ -166,7 +166,8 @@ def result():
 - 이전에 만들어놓은 result를 수정하였다.
 - result 페이지를 렌더링할 때 앞페이지에서 입력한 값을 받아오고, jobs 에 채용사이트에서 찾아온 결과값들이 담긴 list를 담았다.
 - 이제 이 두 값을 result.html에 넘겨준다.
-  <img src="/images/posts/flask_10.png">
+
+<img src="/images/posts/flask_10.png">
 
 <br/>
 
