@@ -174,7 +174,7 @@ def result():
 - 값을 표시할 땐 `{% raw %}{{}}{% endraw %}` 을 사용하면 되지만, list형태의 값을 `{% raw %}{{}}{% endraw %}`에 넣으면 list 그 자체가 나타나게 된다.
 - 순차적으로 돌며 값을 뿌리기 위해 for를 사용하여야 한다.
 - `{% raw %}{%%}{% endraw %}` 안에 실제 파이썬에서 쓰던 문법을 사용하면 플라스크가 인식하고 실행한다.
-- `{% raw %} {% for %} {% endfor %}{% endraw %} ` 나 `{% raw %} {% if %}{% endif %}{% endraw %} `를 사요 구문을 시작했으면 반드시 끝맺음을 해줘야 한다.
+- `{% raw %} {% for %} {% endfor %}{% endraw %} ` 나 `{% raw %} {% if %}{% endif %}{% endraw %} `로 사용하면 된다. 그리고 반드시 endif, endfor로 끝맺음을 해줘야 한다.
 - jobs가 값이 None일 경우에 표시하기 위에 if로 먼저 jobs이 있는지 없는지 분기를 설정하고 있을 경우메나 for를 실행하게 코드를 작성했다.
 
 <img src="/images/posts/flask_09.png">
