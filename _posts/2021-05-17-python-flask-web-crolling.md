@@ -188,7 +188,7 @@ def result():
 - 이러면 서버에서 작업은 끝이다.
 - html에선 어떻게 저 값을 표시할 수 있을까?
 - search_word = word 은 word의 값을 search_word에 담아 전달하는 것이다.
-- "{{search_word}}" 로 표시하면 플라스크에서 html과 python을 보고 있다가 해당 문법을 인식하고 변수에 값을 전달해준다.
+- `{% raw %}{{search_word}}{% endraw %}` 로 표시하면 플라스크에서 html과 python을 보고 있다가 해당 문법을 인식하고 변수에 값을 전달해준다.
 
 ```html
 <!-- <!DOCTYPE html>
