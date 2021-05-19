@@ -167,7 +167,36 @@ def result():
 - result 페이지를 렌더링할 때 앞페이지에서 입력한 값을 받아오고, jobs 에 채용사이트에서 찾아온 결과값들이 담긴 list를 담았다.
 - 이제 이 두 값을 result.html에 넘겨준다.
 
-<img src="/images/posts/flask_10.png">
+```html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find your jobs-result</title>
+  </head>
+  <body>
+    <header>
+      <h1>니가 검색한 단어 : {{word}}</h1>
+      <a href="/">뒤로 가기</a>
+    </header>
+
+    <main>
+      {% if jobs:%} {% for job in jobs%}
+      <div>
+        <h3>{{job.title}}</h3>
+        <a href="{{job.link}}">이동</a>
+        <h4>{{job.company}}</h4>
+        <h4>{{job.locate}}</h4>
+        <h4>{{job_rate}}</h4>
+        <hr />
+      </div>
+      {% endfor%} {% else: %}
+      <div>결과가 없다</div>
+      {% endif %}
+    </main>
+  </body>
+</html>
+```
 
 <br/>
 
