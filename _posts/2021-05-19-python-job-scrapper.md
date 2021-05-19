@@ -165,7 +165,7 @@ def result():
 - result 페이지를 렌더링할 때 앞페이지에서 입력한 값을 받아오고, jobs 에 채용사이트에서 찾아온 결과값들이 담긴 list를 담았다.
 - 이제 이 두 값을 result.html에 넘겨준다.
 
-```html
+```html python
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -175,12 +175,12 @@ def result():
   </head>
   <body>
     <header>
-      <h1>니가 검색한 단어 : {{word}}</h1>
+      <h1>니가 검색한 단어 : "{{word}}"</h1>
       <a href="/">뒤로 가기</a>
     </header>
 
     <main>
-      {% if jobs:%} {% for job in jobs%}
+      "{% if jobs:%} {% for job in jobs%}"
       <div>
         <h3>{{job.title}}</h3>
         <a href="{{job.link}}">이동</a>
@@ -189,9 +189,9 @@ def result():
         <h4>{{job_rate}}</h4>
         <hr />
       </div>
-      {% endfor%} {% else: %}
+      "{% endfor%} {% else: %}"
       <div>결과가 없다</div>
-      {% endif %}
+      "{% endif %}"
     </main>
   </body>
 </html>
@@ -204,6 +204,7 @@ def result():
 - "{%%}" 안에 실제 파이썬에서 쓰던 문법을 사용하면 플라스크가 인식하고 실행한다.
 - "{% for %}" 나 {% if %}를 시작했으면 반드시 "{% endfor %}" "{% endif %}"로 끝맺음을 해줘야 한다.
 - jobs가 값이 None일 경우에 표시하기 위에 if로 먼저 jobs이 있는지 없는지 분기를 설정하고 있을 경우메나 for를 실행하게 코드를 작성했다.
+  > 위 html 코드에 "{{}}" 라고 입력했는데 포스트에 올리기 위해 ""을 추가한 것이다. 실제 코드에서는 ""는 없어야 한다!
 
 <img src="/images/posts/flask_09.png">
 이렇게 결과물이 나오게 된다! 이제 css로 이쁘게 꾸미도록 하자.🎨
