@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: 파이썬&플라스크- 채용 플랫폼에서 공고를 크롤링해서 html에 뿌려보자.
+title: 파이썬&플라스크- 플라스크로 웹사이트 만들기
 
 tags: [python]
 
@@ -62,16 +62,19 @@ app.run(host="0.0.0.0")
 <br/>
 - 사용자가 /contact에 접속할 때 potato함수를 실행하고 싶은 걸 파이썬이 어떻게 아는 걸까?
 - @ 로 인식한다.
-- @은 데코레이터 인데, 바로 아래에 있는 함수를 찾는다. 그 함수를 decorate(꾸미다) 역할로 실행해준다.
+- @은 데코레이터 인데, 바로 아래에 있는 함수를 찾는다. 그 함수를 decorate(꾸미다) 역할로 코드를 실행해준다.
 - 그래서 파이썬은 "/contact 로 접속 요청이 들어오면 potato를 실행하면 되는군!" 하고 인식하는 것이다.
 - @app.route() + 함수가 기본 구조이다.
 
 ### html 페이지 연결하기
 
+- return "text"를 했을 때 html에서 "text"를 바로 뿌려주는 걸 보면
 - 데코레이터가 인식하는 함수 안에 html 을 써도 되지만.. 그것은 너무나도 비효율적이다.
 - 템플릿 폴더 안에 html 문서를 작성하면 플라스크에서 그 문서를 인식할 수 있다.
 - 먼저 render_template를 임포트 해야 해당 함수를 사용할 수 있다.
 - return 에 render_template("문서이름.html")
+
+<img src="/images/posts/flask_04.png">
 
 ```python
 from flask import Flask, render_template
@@ -184,7 +187,8 @@ def result():
 <br/>
 - 이러면 서버에서 작업은 끝이다.
 - html에선 어떻게 저 값을 표시할 수 있을까?
-- {{search_word}} 로 표시하면 플라스크에서 html과 python을 보고 있다가 해당 문법을 인식하고 변수에 값을 전달해준다.
+- search_word = word 은 word의 값을 search_word에 담아 전달하는 것이다.
+- "{{search_word}}" 로 표시하면 플라스크에서 html과 python을 보고 있다가 해당 문법을 인식하고 변수에 값을 전달해준다.
 
 ```html
 <!-- <!DOCTYPE html>
@@ -196,12 +200,12 @@ def result():
   </head> -->
 <body>
   <h1>Search Results</h1>
-  <h3>You are looking for {{search_word}}</h3>
+  <h3>You are looking for "{{search_word}}"</h3>
 </body>
 <!-- </html> -->
 ```
 
-### html <a>(앵커 요소)를 이용하여 페이지 이동하기
+### html a 앵커 요소를 이용하여 페이지 이동하기
 
 - 이제 검색을 한 후, 다시 뒤로 돌아갈 수 있는 요소를 만들어 보자.
 - 페이지를 이동할 때 쓰는 html 태그는 앵커 태그이다.
@@ -222,6 +226,8 @@ def result():
 <!-- </body>
 </html> -->
 ```
+
+<br/>
 
 ### 이제 입력 값을 서버에 전송하고,
 
