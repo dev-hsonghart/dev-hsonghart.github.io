@@ -27,6 +27,8 @@ const handleClick = (event) => console.log(event);
 btn.addEventListener("click", handleClick);
 ```
 
+<br/>
+
 ### 함수 패턴에서 짧은 함수가 환영받는다.
 
 ```javascript
