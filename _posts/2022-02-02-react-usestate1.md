@@ -39,6 +39,8 @@ function Prac() {
 export default Prac;
 ```
 
+<img src="/images/posts/react-prac-01.png">
+
 - value : input에 입력된 값
 - e.target.value : 이벤트가 발생된 곳의 input의 값
 - onChange : input에서 이벤트(변화)가 발생할 때 입력한 함수가 작동하는 속성값
