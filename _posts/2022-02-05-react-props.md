@@ -72,7 +72,7 @@ function PracSecond() {
 - props. 의 기본값을 정할 때는 아주 간단하다.
 - 컴포넌트에 전달할 때 key = 기본값 으로 써주면 된다.
 
-```jsx
+```js
 const Btn = ({ text, fontSize = 14 }) => {
   return (
     <button style={{ fontSize, backgroundColor: "tomato", color: "white" }}>
@@ -124,7 +124,7 @@ function PracSecond() {
 }
 ```
 
-- onClick이라는 함수를 생성하여 onClick이라는 이름으로 props에 넣은 것뿐, <button>태그에 직접 달아주는 게 아닌 이상 작동하지 않는다.
+- onClick이라는 함수를 생성하여 onClick이라는 이름으로 props에 넣은 것뿐, `<button>`태그에 직접 달아주는 게 아닌 이상 작동하지 않는다.
 
 ```javascript
 const Btn = ({ text, onClick }) => {
