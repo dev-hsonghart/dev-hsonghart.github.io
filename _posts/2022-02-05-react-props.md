@@ -72,7 +72,7 @@ function PracSecond() {
 - props. 의 기본값을 정할 때는 아주 간단하다.
 - 컴포넌트에 전달할 때 key = 기본값 으로 써주면 된다.
 
-```javascript
+```
 const Btn = ({ text, fontSize = 14 }) => {
   return (
     <button style={{ fontSize, backgroundColor: "tomato", color: "white" }}>
