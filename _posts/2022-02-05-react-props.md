@@ -63,10 +63,8 @@ function PracSecond() {
 - array를 꺼내어 정의할 때는 [a, b]를 쓴 것처럼 object에서는 {a,b}로 사용하면 된다. 물론, 정의는 이미 내려졌기 때문에 props key를 그대로 사용하면 된다.
 - `props.text => {text}`
 - 이러면 좀 더 간결하고 짧은 코드를 사용할 수 있다.
-
-<br/>
-
 - props에는 string말고도 숫자, boolean, 함수까지 전달할 수 있다.
+  <br/>
 
 ### props. 기본값 설정
 
