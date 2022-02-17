@@ -41,6 +41,7 @@ useEffect(() => {
 useEffect(() => {
   console.log("값이 바뀔 때 실행함");
 }, [dependency]);
+// dependency가 바뀔 때마다 "값이 바뀔때 실행함"이 콘솔창에 찍힘
 ```
 
 배열[]안에 들어가는 값의 명칭을 dependency 라고 하는데, 사전적 의미로 "종속"을 뜻한다.
