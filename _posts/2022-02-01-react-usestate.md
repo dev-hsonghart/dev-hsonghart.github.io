@@ -28,8 +28,8 @@ DATA와 function을 쓰기 위해선 따로 꺼내어 주어야 한다.
 
 ```javascript
 const DATAState = useState(0);
-const DATA = useState[0];
-const setDATA = useState[1];
+const DATA = DATAState[0];
+const setDATA = DATAState[1];
 ```
 
 이렇게 정의하고 사용해도 되지만 매번 3줄을 반복적으로 쓰는 것은 귀찮은 일이다.
